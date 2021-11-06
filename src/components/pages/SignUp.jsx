@@ -51,7 +51,7 @@ export const SignUp = memo(() => {
                     <Input placeholder="email" value={email} onChange={onChangeEmail} />
                     <Input placeholder="password" value={password} onChange={onChangePassword} />
                     <Input placeholder="name" value={name} onChange={onChangeName} />
-                    <PrimaryButton>Login</PrimaryButton>
+                    <PrimaryButton>SignUp</PrimaryButton>
                     <Link color="gray.500" href="/login">ログイン画面へ</Link>
                 </Stack>
             </Box>
