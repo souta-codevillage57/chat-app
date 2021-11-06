@@ -54,7 +54,7 @@ export const Login = memo((props) => {
                     <Input placeholder="email" value={email} onChange={onChangeEmail} />
                     <Input placeholder="password" value={password} onChange={onChangePassword} />
                     <Input placeholder="name" value={name} onChange={onChangeName} />
-                    <PrimaryButton>Login</PrimaryButton>
+                    <PrimaryButton>SignUp</PrimaryButton>
                     <Link color="gray.500" href="/">ユーザー登録へ</Link>
                 </Stack>
             </Box>
